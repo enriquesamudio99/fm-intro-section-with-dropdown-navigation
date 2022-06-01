@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__container container">
+                <a class="navbar__brand" href="#">
+                    <img class="navbar__brand-img" src="images/logo.svg" alt="Logo">
+                </a>
+                <button class="navbar__open" type="button" id="openBtn">
+                    <img class="navbar__open-img" src="images/icon-menu.svg">
+                </button>
+                <div class="navbar__nav" id="navbarNav">
+                    <button class="navbar__close" type="button" id="closeBtn">
+                        <img class="navbar__close-img" src="images/icon-close-menu.svg">
+                    </button>
+                    <ul class="navbar__nav-left">
+                        <li class="nav__item">
+                            <a class="nav__link dropdown" href="#">
+                                Features
+                                <img class="nav__link-icon" src="images/icon-arrow-down.svg" alt="Icon Arrow Down">
+                            </a>
+
+                            <div class="dropdown__container">
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            <img class="dropdown__link-icon" src="images/icon-todo.svg" alt="Icon Todo">
+                                            Todo List
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            <img class="dropdown__link-icon" src="images/icon-calendar.svg" alt="Icon Calendar">
+                                            Calendar
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            <img class="dropdown__link-icon" src="images/icon-reminders.svg" alt="Icon Reminders">
+                                            Reminders
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            <img class="dropdown__link-icon" src="images/icon-planning.svg" alt="Icon Planning">
+                                            Planning
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li> 
+                        <li class="nav__item">
+                            <a class="nav__link dropdown" href="#">
+                                Company
+                                <img class="nav__link-icon" src="images/icon-arrow-down.svg" alt="Icon Arrow Down">
+                            </a>
+
+                            <div class="dropdown__container">
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            History
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                    <li class="dropdown__item">
+                                        <a class="dropdown__link" href="#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Careers</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">About</a>
+                        </li>                 
+                    </ul>
+                    <ul class="navbar__nav-right">
+                        <li class="nav__item">
+                            <a class="nav__link nav__link--login" href="#">Login</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link nav__link--register" href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Make remote work
+
+    Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.
+
+    Learn more -->
+  
+    <script src="js/scripts.js"></script>
+</body>
+</html>
