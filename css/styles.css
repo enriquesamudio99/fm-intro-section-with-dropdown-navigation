@@ -169,3 +169,48 @@ a {
 .dropdown__item:nth-child(3) .dropdown__link-icon {
     margin-right: 18px;
 }
+
+.home__container {
+    width: 100%;
+}
+
+.home__img--desktop {
+    display: none;
+}
+
+.home__content {
+    margin-top: 2.625rem;
+    text-align: center;
+}
+
+.home__title {
+    font-size: 2.188rem;
+    line-height: 1.2;
+}
+
+.home__text {
+    margin-top: 1.25rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--mediumGray);
+}
+
+.btn {
+    margin-top: 1.25rem;
+    display: inline-block;
+    background-color: var(--almostBlack);
+    color: var(--almostWhite);
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+}
+
+.home__sponsors {
+    margin-top: 3rem;
+    padding: 0 1rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
